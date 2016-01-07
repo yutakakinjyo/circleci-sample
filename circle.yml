@@ -1,0 +1,6 @@
+dependencies:
+  override:
+    - g++ main.cpp
+test:
+  override:
+    - ./a.out
