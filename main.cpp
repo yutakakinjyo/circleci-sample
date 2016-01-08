@@ -1,6 +1,7 @@
 #include <iostream>
 
 int main(void) {
-  std::cout << "hoge" << std::endl;
+  string hoge = "hoge";
+  std::cout << hoge << std::endl;
   return 0;
 }
