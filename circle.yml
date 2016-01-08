@@ -4,3 +4,10 @@ dependencies:
 test:
   override:
     - ./a.out
+  post:
+    - git config --global user.email "yutakakinjyo+bot@gmail.com"
+    - ./a.out > report.txt
+    - git add report.txt
+    - git commit -m "report is changed [ci skip]"
+    - git push origin `git rev-parse --abbrev-ref HEAD`
+
