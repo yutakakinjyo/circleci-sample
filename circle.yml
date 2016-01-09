@@ -6,8 +6,5 @@ dependencies:
 test:
   override:
     - ./a.out
-deployment:
-  reportpush:
-    branch: /*/
-    commands:
-      - ./commit.sh
+  post:
+    - ./commit.sh
