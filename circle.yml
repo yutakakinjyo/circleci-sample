@@ -8,5 +8,6 @@ test:
     - ./a.out
 deployment:
   reportpush:
+    branch: /*/
     commands:
       - ./commit.sh
