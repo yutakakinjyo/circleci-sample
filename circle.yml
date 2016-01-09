@@ -9,4 +9,3 @@ test:
 deployment:
   reportpush:
     - ./commit.sh
-
