@@ -1,7 +1,5 @@
 #!/bin/sh
 
-git config --global user.email "yutakakinjyo+bot@gmail.com"
-git config --global user.name "ci-check"
 ./a.out > report.txt
 git add report.txt
 

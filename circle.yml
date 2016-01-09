@@ -5,4 +5,6 @@ test:
   override:
     - ./a.out
   post:
+    - git config --global user.email "yutakakinjyo+bot@gmail.com"
+    - git config --global user.name "ci-check"
     - ./commit.sh
